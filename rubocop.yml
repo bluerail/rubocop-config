@@ -1,5 +1,5 @@
 Documentation:
-  enabled: false # Missing top-level %s documentation comment
+  Enabled: false # Missing top-level %s documentation comment
 
 Metrics/LineLength:
   Max: 120
