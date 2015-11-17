@@ -13,3 +13,7 @@ Metrics/LineLength:
 # To prevent user defaults on double quotes
 StringLiterals:
   EnforcedStyle: single_quotes
+
+# Load Rails cops
+AllCops:
+  RunRailsCops: true
