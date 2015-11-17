@@ -16,3 +16,8 @@ And in your .gitignore:
 ```
 .rubocop-https*yml
 ```
+
+Requirements
+============
+
+inherit_from was added in Rubocop 0.35.0 so that's the minimum required version
