@@ -6,11 +6,11 @@ Documentation:
 ClassAndModuleChildren:
   Enabled: false
 
-# We have bigger terminals then 80 these days
+# We have bigger terminals than 80 columns these days
 Metrics/LineLength:
   Max: 120
 
-# To prevent user defaults on double quotes
+# Prevent user defaults on double quotes
 StringLiterals:
   EnforcedStyle: single_quotes
 
