@@ -13,6 +13,10 @@ Metrics/LineLength:
 # To prevent user defaults on double quotes
 StringLiterals:
   EnforcedStyle: single_quotes
+  
+# Allow multi-line stabby lambdas
+Style/Lambda:
+  Enabled: false
 
 # Load Rails cops
 AllCops:
