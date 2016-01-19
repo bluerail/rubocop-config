@@ -15,5 +15,5 @@ StringLiterals:
   EnforcedStyle: single_quotes
 
 # Load Rails cops
-AllCops:
-  RunRailsCops: true
+Rails:
+  Enabled: true
