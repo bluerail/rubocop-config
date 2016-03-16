@@ -21,3 +21,9 @@ Style/Lambda:
 # Load Rails cops
 Rails:
   Enabled: true
+
+# Don't test auto generated files
+AllCops:
+  Exclude:
+    - db/schema.rb
+
