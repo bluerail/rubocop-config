@@ -10,10 +10,14 @@ ClassAndModuleChildren:
 Metrics/LineLength:
   Max: 120
 
-# Prevent user defaults on double quotes
+# Don't care about quotes
 StringLiterals:
-  EnforcedStyle: single_quotes
-  
+  Enabled: false
+
+# Use either fail or raise
+SignalException:
+  Enabled: false
+
 # Allow multi-line stabby lambdas
 Style/Lambda:
   Enabled: false
