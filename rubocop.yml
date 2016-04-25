@@ -2,6 +2,10 @@
 Documentation:
   Enabled: false
 
+# Don't warn about frozen string literal comment
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
 # No preference for nested or compact class / module defenition
 ClassAndModuleChildren:
   Enabled: false
