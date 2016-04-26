@@ -4,7 +4,7 @@ Documentation:
 
 # Don't warn about frozen string literal comment
 Style/FrozenStringLiteralComment:
-  EnforcedStyle: never
+  EnforcedStyle: when_needed
 
 # No preference for nested or compact class / module defenition
 ClassAndModuleChildren:
