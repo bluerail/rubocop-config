@@ -30,6 +30,13 @@ Style/Lambda:
 Rails:
   Enabled: true
 
+# Allow documented usage of gettext
+Style/FormatStringToken:
+  Enabled: false
+
+Style/FormatString:
+  Enabled: false
+
 # Don't test auto generated files
 AllCops:
   Exclude:
