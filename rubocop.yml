@@ -44,6 +44,11 @@ AllCops:
     - db/seed.rb
   TargetRubyVersion: 2.3
 
+Style/MixinUsage:
+  Exclude:
+    - bin/update
+    - bin/setup
+
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*.rb'
@@ -68,5 +73,5 @@ Metrics/AbcSize:
 
 Rails/Output:
   Exclude:
-      - db/migrate/*
+    - db/migrate/*
 
