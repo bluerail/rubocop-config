@@ -48,11 +48,13 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/**/*.rb'
     - 'features/support/**/*.rb'
+    - 'db/migrate/*.rb'
 
 Metrics/MethodLength:
   Exclude:
     - 'spec/**/*.rb'
     - 'features/support/**/*.rb'
+    - 'db/migrate/*.rb'
 
 Metrics/CyclomaticComplexity:
   Exclude:
