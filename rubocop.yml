@@ -40,8 +40,8 @@ Style/FormatString:
 # Don't test auto generated files
 AllCops:
   Exclude:
-    - db/schema.rb
-    - db/seed.rb
+    - 'db/schema.rb'
+    - 'db/seed.rb'
     - 'node_modules/**/*'
   TargetRubyVersion: 2.3
 
