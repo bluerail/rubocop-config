@@ -42,6 +42,7 @@ AllCops:
   Exclude:
     - db/schema.rb
     - db/seed.rb
+    - node_modules
   TargetRubyVersion: 2.3
 
 Style/MixinUsage:
