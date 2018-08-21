@@ -43,7 +43,6 @@ AllCops:
     - 'db/schema.rb'
     - 'db/seed.rb'
     - 'node_modules/**/*'
-  TargetRubyVersion: 2.3
 
 Style/MixinUsage:
   Exclude:
@@ -76,3 +75,9 @@ Rails/Output:
   Exclude:
     - db/migrate/*
 
+Rails/UnknownEnv:
+  Environments:
+    - development
+    - test
+    - staging
+    - production
