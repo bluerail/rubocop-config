@@ -43,6 +43,7 @@ AllCops:
     - 'db/schema.rb'
     - 'db/seed.rb'
     - 'node_modules/**/*'
+    - 'db/migrate/*'
 
 Style/MixinUsage:
   Exclude:
