@@ -1,5 +1,3 @@
-require: rubocop-rails
-
 # Missing top-level %s documentation comment is ok for simple classes
 Documentation:
   Enabled: false
