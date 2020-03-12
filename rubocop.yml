@@ -1,43 +1,40 @@
 require: rubocop-rails
 
+# 80 characters is too restrictive
+Layout/LineLength:
+  Max: 120
+
+# Load Rails cops
+Rails:
+  Enabled: true
+
 # Missing top-level %s documentation comment is ok for simple classes
-Documentation:
+Style/Documentation:
   Enabled: false
 
 # Don't warn about frozen string literal comment
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-# No preference for nested or compact class / module defenition
-ClassAndModuleChildren:
+# No preference for nested or compact class / module definition
+Style/ClassAndModuleChildren:
   Enabled: false
-
-# We have bigger terminals than 80 columns these days
-Metrics/LineLength:
-  Max: 120
 
 # Don't care about quotes
-StringLiterals:
-  Enabled: false
-
-# Use either fail or raise
-SignalException:
+Style/StringLiterals:
   Enabled: false
 
 # Allow multi-line stabby lambdas
 Style/Lambda:
   Enabled: false
 
-# Load Rails cops
-Rails:
-  Enabled: true
-
 # Allow documented usage of gettext
 Style/FormatStringToken:
   Enabled: false
-
 Style/FormatString:
   Enabled: false
+
+# Warnings if not explicitly enabled (check in later versions)
 
 Style/HashEachMethods:
   Enabled: true
